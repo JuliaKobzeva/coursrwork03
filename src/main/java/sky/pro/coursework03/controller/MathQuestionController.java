@@ -11,11 +11,11 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("/exam/java")
-public class JavaQuestionController {
+public class MathQuestionController {
     private final QuestionService questionService;
 
-    public JavaQuestionController(QuestionService javaQuestionService) {
-        this.questionService = javaQuestionService;
+    public MathQuestionController(QuestionService mathQuestionService) {
+        this.questionService = mathQuestionService;
     }
 
     @GetMapping("/java/add")

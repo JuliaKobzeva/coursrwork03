@@ -6,3 +6,6 @@ GET http://localhost:8080/exam/java/remove?question=QuestionText&answer=Question
 
 ###получить все вопросы
 GET http://localhost:8080/exam/java
+
+###получить 3 вопроса
+GET http://localhost:8080/exam/get/3

@@ -7,15 +7,13 @@ import sky.pro.coursework03.model.Question;
 import sky.pro.coursework03.repository.QuestionRepository;
 
 import java.util.Collection;
-import java.util.Set;
 
 @Service
-public class JavaQuestionService implements QuestionService{
-
+public class MathQuestionService implements QuestionService{
     private final QuestionRepository questionRepository;
     private final UtilService utilService;
 
-    public JavaQuestionService(@Qualifier("javaQuestionRepository") QuestionRepository questionRepository, UtilService utilService) {
+    public MathQuestionService(@Qualifier("mathQuestionRepository") QuestionRepository questionRepository, UtilService utilService) {
         this.questionRepository = questionRepository;
         this.utilService = utilService;
     }
